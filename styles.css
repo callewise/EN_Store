@@ -9,9 +9,12 @@ body, h1, h2, h3, h4, p, ul, li {
   body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
-    background-image: url("images/background_2.jpg");
+    background-image: url("images/background.jpg");
     background-size: cover; 
     background-position: center;
+    height: 100%; 
+    margin: 0;
+    padding: 0;
   }
   
   .container {

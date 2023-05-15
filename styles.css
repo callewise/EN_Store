@@ -1,0 +1,138 @@
+
+
+/* Reset some default styles */
+body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-image: url("images/background_2.jpg");
+    background-size: cover; 
+    background-position: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    /* Set appropriate dimensions and positioning for the logo container */
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header img {
+    /* Adjust the logo size as needed */
+    width: 200px;
+    height: auto;
+  }
+  
+  header a {
+    /* Remove default link styles */
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  header a:hover {
+    /* Add hover effect if desired */
+    opacity: 0.8;
+  }
+
+  header h1 {
+    font-size: 28px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Target the favicon within the title tag */
+  title > link[rel="icon"] {
+    /* Add your styling properties here */
+    width: 16px;
+    height: 16px; 
+  }
+
+  .hero {
+    background-image: url("images/background_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+  }
+  
+  .features {
+    padding: 40px;
+  }
+  
+  .features h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .feature img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  

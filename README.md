@@ -1,6 +1,6 @@
 # En_Store 
 # Inventory Management System
-![EN_Store Logo](https://github.com/MuthauraCodex/En_Store-Copy/assets/111274197/cd00df5e-3cd5-42b2-8583-5aa31ee4f28d)
+![EN_Store Logo](https://github.com/callewise/EN_Store/assets/111274197/f0862189-8ada-40ca-b6d0-857c066fcd45)
 
 
 # Introduction

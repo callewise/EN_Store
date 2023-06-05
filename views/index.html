@@ -3,12 +3,21 @@
 <head>
   <meta charset="utf-8">
   <title>EN_Store</title>
-    <link rel="icon" href="images/en_store-website-favicon.png" type="image/en_store-website-favicon">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="../public/images/en_store-website-favicon.png" type="image/en_store-website-favicon">
+    <link rel="stylesheet" type="text/css" href="../public/css/styles.css">
+    <script src="../public/js/script.js"></script>
+    <script src="auth.js"></script>
+    <script src="validation.js"></script>
+    <script src="api.js"></script>
+    <script src="security.js"></script>
+    <script src="db.js"></script>
+    <script src="user.js"></script>
+    <script src="../public/js/register.js"></script>
+    <script src="../public/js/login.js"></script>
 </head>
 <body>
   <header>
-    <h1><img src="images/EN_Store Logo.png" alt="EN_Store Logo"></h1>
+    <h1><img src="../public/images/EN_Store Logo.png" alt="EN_Store Logo"></h1>
     
     <nav>
       <ul>
@@ -27,35 +36,56 @@
       <p>Efficiently manage your inventory, streamline orders, and track customer interactions.</p>
       <a href="#" class="btn btn-primary">Get Started</a>
     </div>
+    <form id="login-form">
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+
+      <button type="submit">Login</button>
+  </form>
+
+  <form id="register-form">
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+
+      <!-- Additional registration fields -->
+
+      <button type="submit">Register</button>
+  </form>
   </section>
 
   <section class="features">
     <div class="container">
       <h3>Key Features</h3>
       <div class="feature">
-        <img src="images/inventory-icon.png" alt="Inventory Icon">
+        <img src="../public/images/inventory-icon.png" alt="Inventory Icon">
         <h4>Inventory Tracking</h4>
         <p>Effortlessly manage your inventory levels, track stock movements, and set automatic reorder points.</p>
       </div>
       <div class="feature">
-        <img src="images/order-icon.png" alt="Order Icon">
+        <img src="../public/images/order-icon.png" alt="Order Icon">
         <h4>Order Management</h4>
         <p>Simplify your order process, track order status, and generate invoices for seamless transactions.</p>
       </div>
       <div class="feature">
-        <img src="images/customer-icon.png" alt="Customer Icon">
+        <img src="../public/images/customer-icon.png" alt="Customer Icon">
         <h4>Customer Relationship Management</h4>
         <p>Store and access customer information, track interactions, and provide personalized service.</p>
       </div>
     </div>
   </section>
-
+  
   <footer>
     <div class="container">
       <p>&copy; 2023 EN_Store. All rights reserved.</p>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+ 
 </body>
 </html>

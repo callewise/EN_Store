@@ -1,63 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EN_Store</title>
     <link rel="icon" href="../public/images/en_store-website-favicon.png" type="image/en_store-website-favicon">
     <link rel="stylesheet" type="text/css" href="../public/css/styles.css">
-    <script src="../public/js/script.js"></script>
-    <script src="auth.js"></script>
-    <script src="validation.js"></script>
-    <script src="api.js"></script>
-    <script src="security.js"></script>
-    <script src="db.js"></script>
-    <script src="user.js"></script>
-    <script src="../public/js/register.js"></script>
-    <script src="../public/js/login.js"></script>
 </head>
+
 <body>
+  
   <header>
-    <h1><img src="../public/images/EN_Store Logo.png" alt="EN_Store Logo"></h1>
-    
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Inventory</a></li>
-        <li><a href="#">Orders</a></li>
-        <li><a href="#">Customers</a></li>
-        <li><a href="#">Reports</a></li>
-      </ul>
+    <h2 class="logo">EN_Store</h2>
+    <nav class="navigation">
+        <a href="#" class="active">Home<span></span></a>
+        <a href="#">About<span></span></a>
+        <a href="#">Services<span></span></a>
+        <a href="#">Contact<span></span></a>
+        
+        <button class="btnLogin-popup">Login</button>
     </nav>
   </header>
 
-  <section class="hero">
-    <div class="container">
-      <h2>Welcome to our Inventory Management System!</h2>
-      <p>Efficiently manage your inventory, streamline orders, and track customer interactions.</p>
-      <a href="#" class="btn btn-primary">Get Started</a>
-    </div>
-    <form id="login-form">
-      <label for="email">Email:</label>
-      <input type="email" id="email" required>
-
-      <label for="password">Password:</label>
-      <input type="password" id="password" required>
-
-      <button type="submit">Login</button>
-  </form>
-
-  <form id="register-form">
-      <label for="email">Email:</label>
-      <input type="email" id="email" required>
-
-      <label for="password">Password:</label>
-      <input type="password" id="password" required>
-
-      <!-- Additional registration fields -->
-
-      <button type="submit">Register</button>
-  </form>
+  <section class="parallax">
+    <h2 id="text">EN_Store IMS</h2>
+    <!--<img src="../public/images/tree-left.pn" alt="tree-left">
+    <img src="../public/images/tree-right.pn" alt="tree-right">
+    <img src="../public/images/gate-left.pn" alt="gate-left">
+    <img src="../public/images/gate-right.pn" alt="gate-right">
+    <img src="../public/images/grass.png" alt="grass">-->
   </section>
+
+  <section class="sec">
+    <h2>En_Store</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsum nisi eligendi maxime sunt odit reprehenderit! Magnam officia placeat iusto ducimus quaerat iure dicta harum, itaque voluptatem ex provident tenetur dolore culpa odio maxime minus inventore quod assumenda voluptate enim distinctio. Quod cum recusandae suscipit quasi doloribus maxime unde eligendi, nemo id laborum architecto! Deleniti fugit cum quo at harum. Culpa porro ullam maiores in expedita unde optio iusto quaerat voluptate nulla adipisci, impedit dicta! Officiis nesciunt unde, quisquam ratione laboriosam commodi nihil dicta fuga sequi! Veniam officia ratione voluptatem doloribus rem optio ea hic maiores, in fugit harum ipsam aliquid, mollitia possimus ducimus vitae consequuntur cupiditate eius deserunt porro unde laborum. Asperiores iste iure consectetur quas animi nisi eaque. <br><br>
+    </p>
+  </section>
+
+  <div class="wrapper">
+    <span class="icon-close">
+      <ion-icon name="close"></ion-icon>
+    </span>
+
+    <div class="form-box login">
+      <h2>Login</h2>  
+      <form action="#">
+        <div class="input-box">
+          <span class="icon">
+            <ion-icon name="mail"></ion-icon>
+          </span>
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <span class="icon">
+            <ion-icon name="lock-closed"></ion-icon>
+          </span>
+          <input type="password" required>
+          <label>Password</label>
+        </div>
+        <div class="remember-forgot">
+          <label><input type="checkbox"> 
+          Remember me</label>
+          <a href="#">Forgot Password?</a>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="login-register">
+          <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+        </div>
+      </form>
+    </div>
+
+    <div class="form-box register">
+      <h2>Registration</h2>
+      <form action="#">
+        <div class="input-box">
+          <span class="icon">
+            <ion-icon name="person"></ion-icon>
+          </span>
+          <input type="text" required>
+          <label>Username</label>
+        </div>
+        <div class="input-box">
+          <span class="icon">
+            <ion-icon name="mail"></ion-icon>
+          </span>
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <span class="icon">
+            <ion-icon name="lock-closed"></ion-icon>
+          </span>
+          <input type="password" required>
+          <label>Password</label>
+        </div>
+        <div class="remember-forgot">
+          <label><input type="checkbox"> 
+          I agree to the terms & condtions</label>
+        </div>
+        <button type="submit" class="btn">Register</button>
+        <div class="login-register">
+          <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
 
   <section class="features">
     <div class="container">
@@ -86,6 +137,8 @@
     </div>
   </footer>
 
- 
+    <script src="../public/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
 </body>
 </html>

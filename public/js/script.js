@@ -1,51 +1,38 @@
-// Wait for the DOM to be fully loaded
-document.addEventListener('DOMContentLoaded', function() {
-  // Add event listener to the navigation links
-  const navLinks = document.querySelectorAll('nav ul li a');
-  navLinks.forEach(function(link) {
-    link.addEventListener('click', function(event) {
-      // Prevent default navigation behavior
-      event.preventDefault();
+const wrapper = document.querySelector('.wrapper');
+const loginLink = document.querySelector('.login-link');
+const registerLink = document.querySelector('.register-link');
+const btnPopup = document.querySelector('.btnLogin-popup');
+const iconClose = document.querySelector('.icon-close');
 
-      // Get the target section from the link's href attribute
-      const targetSection = document.querySelector(this.getAttribute('href'));
+registerLink.addEventListener('click', ()=> {
+  wrapper.classList.add('active');
+});
 
-      // Scroll smoothly to the target section
-      targetSection.scrollIntoView({
-        behavior: 'smooth'
-      });
-    });
-  });
+loginLink.addEventListener('click', ()=> {
+  wrapper.classList.remove('active');
+});
 
-  // Add event listener to the "Learn More" button
-  const learnMoreBtn = document.querySelector('.btn-primary');
-  learnMoreBtn.addEventListener('click', function(event) {
-    // Prevent default button behavior
-    event.preventDefault();
+btnPopup.addEventListener('click', ()=> {
+  wrapper.classList.add('active-popup');
+});
 
-    // Get the target section to scroll to
-    const targetSection = document.querySelector('.features');
-
-    // Scroll smoothly to the target section
-    targetSection.scrollIntoView({
-      behavior: 'smooth'
-    });
-  });
+iconClose.addEventListener('click', ()=> {
+  wrapper.classList.remove('active-popup');
 });
 
 
-// function for form validation
-function validateForm() {
-  // Validate form fields
-}
+let text = document.getElementById('text');
+let treeLeft = document.getElementById('tree-right');
+let treeRight = document.getElementById('tree-right');
+let gateLeft = document.getElementById('gate-left');
+let gateRight = document.getElementById('gate-right');
 
-// function for handling form submission
-function handleSubmit(event) {
-  event.preventDefault();
-  // Handle form submission
-}
+window.addEventListener('scroll', () => {
+  let value = window.scrollY;
 
-// function for making an AJAX request
-function makeRequest(url, data) {
-  // Make AJAX request
-}
+  text.style.marginTop = value * 2.5 + 'px';
+  treeLeft.style.left = value * -1.5 + 'px';
+  treeRight.style.left = value * 1.5 + 'px';
+  gateLeft.style.left = value * 0.5 + 'px';
+  gateRight.style.left = value * -0.5 + 'px';
+});

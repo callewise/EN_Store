@@ -4,6 +4,11 @@ Contains the class DBStorage
 """
 
 import models
+from models.inventory import Inventory
+from models.orders import Orders
+from models.customers import Customers
+from models.reports import Reports
+from models.user import User
 from os import getenv
 import sqlalchemy
 from sqlalchemy import create_engine

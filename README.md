@@ -17,15 +17,31 @@ This project is our Portfolio Project, concluding our Foundations Year in The AL
 ## Blog posts
 After the development phase, we shall write a blog post to inform and reflect on the development of En_Store.
 
+# Preview
+The video below shows a sneak peek preview of our deployed landing page. Enjoy 🙂🙂🙂
+
+https://github.com/callewise/EN_Store/assets/111274197/9f567902-dac6-491e-a093-2595d1fc2b1d
+
 # Installation
+En_Store is a WebApp that can be accessed freely by clicking the link below:
+**EN_STORE Homepage** (http://en-store.rf.gd)
+
+# Architecture
+Our web app is a single-page app whose architecture consists of three layers: the presentation layer, the application layer, and the data layer. 
+
+1. The presentation layer is responsible for handling user interactions and displaying information to the user. This layer includes the user interface (UI) components such as forms, tables, charts, and dashboards.
+
+2. The application layer handles the business logic of the system. This layer is responsible for processing user input and generating output based on the rules of the system. The application layer also interacts with the data layer to retrieve and update data.
+
+3. The data layer is responsible for storing and managing the data used by the system. This layer includes the database, which stores all the information about the inventory items, such as their names, descriptions, quantities, and prices.
+
+The diagram below is a simple illustration of how the layers interact within the architecture.
+![EN_STORE Web Architechture 101](https://github.com/callewise/EN_Store/assets/111274197/f4e6b43a-6396-4a42-85a4-142d6a5f6a0f)
 
 # Related projects
+* [AirBnB Clone](https://github.com/MuthauraCodex/AirBnB_clone_v4): a simple web app made in Python, Flask, and JQuery.
 
-# Preview
-The video below shows a sneak peek preview of our deployed landing page. Enjoy 😉😉😉
-
-https://github.com/callewise/EN_Store/assets/111274197/2d26d8fb-eaf1-41c8-9840-9e408bd8ed8e
-
+* [Simple Shell](https://github.com/callewise/simple_shell): a command line interpreter that replicates the sh program.
 
 # License
 No License

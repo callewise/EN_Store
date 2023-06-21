@@ -15,7 +15,8 @@ This project is our Portfolio Project, concluding our Foundations Year in The AL
 * **Muthaura Karimi** (https://github.com/MuthauraCodex)
 
 ## Blog posts
-After the development phase, we shall write a blog post to inform and reflect on the development of En_Store.
+This blog post gives a brief overview of the development of En_Store and a few personal reflections.
+[EN_STORE Blog post](https://medium.com/@Muthaura_K/en-store-inventory-management-system-289ace809b7f)
 
 # Preview
 The video below shows a sneak peek preview of our deployed landing page. Enjoy 🙂🙂🙂
@@ -24,7 +25,7 @@ https://github.com/callewise/EN_Store/assets/111274197/9f567902-dac6-491e-a093-2
 
 # Installation
 En_Store is a WebApp that can be accessed freely by clicking the link below:
-**EN_STORE Homepage** (http://en-store.rf.gd)
+[EN_STORE Homepage](http://en-store.rf.gd)
 
 # Architecture
 Our web app is a single-page app whose architecture consists of three layers: the presentation layer, the application layer, and the data layer. 

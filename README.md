@@ -17,8 +17,15 @@ This project is our Portfolio Project, concluding our Foundations Year in The AL
 ## Blog posts
 After the development phase, we shall write a blog post to inform and reflect on the development of En_Store.
 
-# Tutorial
-Stay Tuned for a tour/demo/preview of the deployed version. 
+# Installation
+
+# Related projects
+
+# Preview
+The video below shows a sneak peek preview of our deployed landing page. Enjoy 😉😉😉
+
+https://github.com/callewise/EN_Store/assets/111274197/2d26d8fb-eaf1-41c8-9840-9e408bd8ed8e
+
 
 # License
 No License
